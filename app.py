@@ -18,7 +18,7 @@ def Port_Ex():
     text2.insert('end' , '[+] - prot: ' , 'black') 
     text2.insert('end' , port , 'green')
     text2.insert('end' , 'is : \n' , 'black')
-    text2.insert('end' , protnum , 'black')
+    text2.insert('end' , protnum , 'red')
 
 def Protocol_Ex():
     protocol = en3.get()  
